@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pokedexita</title>
+</head>
+<body>
+	<div style="display:flex;">
+		<div style="flex-direction: column;">
+			<h1>Lista pokemones</h1>
+			<button id="cargar" onclick="cargarDatosPokemon()">Cargar</button>
+			<button id="regresar" onclick="regresarDatosPokemon()">Regresar</button>
+			<ul id="listaPokemon" >
+			</ul>
+		</div>
+		<div style="flex-direction: column;">
+			<img id="img-front" height="200px" width="200px">
+		</div>
+		<div style="flex-direction: column;">
+			<img id="img-back" height="200px" width="200px">
+		</div>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
